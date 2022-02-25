@@ -21,7 +21,7 @@
         <profile>
             <id>default</id>
             <properties>
-                <tools-jar>/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/lib/tools.jar</tools-jar>
+                <tools-jar>${java.home}/lib/tools.jar</tools-jar>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
