@@ -14,7 +14,7 @@ import static com.alibaba.jvm.sandbox.api.util.GaStringUtils.getJavaClassName;
 import static com.alibaba.jvm.sandbox.api.util.GaStringUtils.getJavaClassNameArray;
 import static com.alibaba.jvm.sandbox.core.util.SandboxStringUtils.toJavaClassNameArray;
 import static com.alibaba.jvm.sandbox.qatest.core.util.AssertUtils.assertArrayEquals;
-import static com.sun.tools.javac.util.StringUtils.toUpperCase;
+import static com.sun..javac.util.StringUtils.toUpperCase;
 import static org.apache.commons.lang3.StringUtils.join;
 
 public class TracingAdviceListener extends AdviceListener {
